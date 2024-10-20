@@ -27,7 +27,6 @@ export default function NavBar() {
   return (
     <Navbar expand="lg" className={scrolled ? 'scrolled' : ''}>
         <Container>
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
                 <span className="navbar-toggler-icon">Boton que no dice nada</span>
             </Navbar.Toggle>
